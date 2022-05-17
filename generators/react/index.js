@@ -288,5 +288,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(this.templatePath('README.tmpl'), this.destinationPath('README.md'), {
       title: capitalize.words(this.appname.replace(/[-_]/g, ' ')),
     });
+    this.fs.copy(this.templatePath('index.ts.tmpl'), this.destinationPath('index.ts'));
+    this.fs.copy(this.templatePath('index.css.tmpl'), this.destinationPath('index.css'));
   }
 };

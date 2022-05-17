@@ -10,7 +10,7 @@
 Note: Please do not use `yarn`, it will break the version checks
 
 1. Install Yeoman: `npm i -g yo`
-2. Install the generator: `npm i -g git+ssh://git@github.com:philips-internal/acpmp-microfrontend-generators.git`
+2. Install the generator: `npm i -g git+ssh://git@github.com:mwraitt/acpmp-microfrontend-generators.git`
 
 ## Usage
 
