@@ -1,0 +1,19 @@
+{
+  "name": "generator-microfrontend",
+  "version": "0.1.0",
+  "description": "Yeoman generators for scaffolding a react microfrontend with specified stack",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Michael Raitt",
+  "dependencies": {
+    "capitalize": "^2.0.4",
+    "cheerio": "^1.0.0-rc.10",
+    "fs-cheerio": "^3.0.0",
+    "semver": "^7.3.7",
+    "yeoman-generator": "^5.6.1"
+  }
+}
